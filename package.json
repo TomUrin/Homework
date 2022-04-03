@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./js/2022-03-30.js",
+    "dev": "nodemon ./js/2022-04-01_funkcijos.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
