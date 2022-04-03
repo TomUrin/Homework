@@ -1,7 +1,7 @@
 console.log('-------------1-------------');
 
-const n = 20;
-if (n == 20) {
+const n = 10;
+if (n >= 0) {
     console.log('Geras');
 } else {
     console.log('Blogas');
@@ -10,9 +10,12 @@ if (n == 20) {
 console.log('-------------2-------------');
 
 const spalva = 2;
-const elgesys = spalva;
-if (elgesys == 2) {
+if (spalva === 1) {
+    console.log('Eikite');
+} else if (spalva === 2) {
     console.log('Palaukite');
+} else if (spalva === 3) {
+    console.log(`STOP!`);
 }
 
 console.log('-------------3-------------');
@@ -29,10 +32,13 @@ if (knygos <= talpa) {
 
 console.log('-------------4-------------');
 
-let a = 10;
-console.log(--a);
-let b = 5;
-console.log(++b);
+let a = 3;
+let b = 6;
+if (a > b) {
+console.log(`a = ${--a}; b = ${++b}`)
+} else {
+    console.log(`a = ${++a}; b = ${--b}`)
+}
 
 console.log('-------------5-------------');
 
@@ -54,14 +60,14 @@ if (degtukai == 6) {
 
 console.log('-------------7-------------');
 
-const menuo = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-const dienos = menuo[2];
-console.log(dienos);
+const dienuSkaicius = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+const menuo = dienuSkaicius[2];
+console.log(menuo);
 
 console.log('-------------8-------------');
 
-const skaicius = 1;
-if (skaicius % 2) {
+const skaicius = 2;
+if (skaicius == 1 || skaicius == 3 || skaicius == 5) {
     console.log('Kambari tvarkys jaunelis');
 } else {
     console.log('Kambari tvarkys vyresnelis');
@@ -69,7 +75,14 @@ if (skaicius % 2) {
 
 console.log('-------------9-------------');
 
-
+let pradzia = 1896;
+let metai = 2007;
+let eile = (metai - pradzia) / 4 + 1;
+if (metai % 4 == 0) {
+    console.log(`Eile: ${eile}`);
+} else {
+    console.log('Metai neolimpiniai');
+}
 
 console.log('-------------10-------------');
 const val = 1;
