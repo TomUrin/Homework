@@ -68,13 +68,16 @@ console.log(string);
 console.log('---------------- 8 ----------------');
 
 
+
 console.log('---------------- 9 ----------------');
 
 function words(a, f) {
     if (a.length > f.length) {
         return a;
-    } else {
+    } else if (a.length < f.length) {
         return f;
+    } else {
+        return 'Lygus';
     }
 }
 

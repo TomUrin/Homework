@@ -1,7 +1,7 @@
 console.log('-------------1-------------');
 
-const n = 10;
-if (n >= 0) {
+const n = 0;
+if (n > 0) {
     console.log('Geras');
 } else {
     console.log('Blogas');
@@ -32,12 +32,14 @@ if (knygos <= talpa) {
 
 console.log('-------------4-------------');
 
-let a = 3;
-let b = 6;
+let a = 2;
+let b = 2;
 if (a > b) {
 console.log(`a = ${--a}; b = ${++b}`)
-} else {
+} else if (a < b) {
     console.log(`a = ${++a}; b = ${--b}`)
+} else {
+    console.log('Skaiciai yra lygus.');
 }
 
 console.log('-------------5-------------');

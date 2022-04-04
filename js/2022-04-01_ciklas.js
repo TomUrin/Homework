@@ -1,7 +1,7 @@
 console.log('---------------- 1 ----------------');
 
 const pasisveikinimas = 'Labas';
-for (let i=[0]; i<5; i++) {
+for (let i=0; i<5; i++) {
 console.log(pasisveikinimas);
 }
 
